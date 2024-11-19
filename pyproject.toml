@@ -1,0 +1,20 @@
+[tool.pyright]
+venvPath = "."
+venv = ".venv"
+
+[tool.poetry]
+name = "goose-hunt-handtracking"
+version = "0.1.0"
+description = "This project tracks pointer finger and mapps it on the screen."
+authors = ["Mani Chandra"]
+license = "MIT License"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+mediapipe = "^0.10.18"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
